@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="jquery-3.1.0.min.js"></script>
+        <!-- <script src="jquery.js"></script> -->
+        <script src="main.js"></script>	
+		
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body><div id="encoder">
+	    <h1>MESSAGE SECURITY</h1>
+	    <div id="wrap">
+		<h2>Кодирование</h2>
+		<form id="formenc" target="_self" action="" method="post">
+		<input type="text" value="" id="passenc" class="pass" placeholder=" Пароль"/>
+		<input type="text" value="" id="enc" class="text" placeholder=" Кодирование"/>
+		<input type="submit" class="submit" id="submit" value=""/>
+		</form>
+		<h2>Декодирование</h2>
+	    <form id="formdec" target="_self" action="" method="post">
+		<input type="submit" class="submit" id="submit" value=""/>
+		<input type="text" value="" id="dec" class="text" placeholder=" Декодирование"/>
+		<input type="text" value="" id="passdec" class="pass" placeholder=" Пароль"/>
+		</form>
+		</div>
+        <div id="wrap">          
+		  <textarea name="message">Результат</textarea>
+        <br/><span id="strlen"><!-- Длина сообщения --></span>
+		</div>
+</div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+﻿{
+   "background": {
+      "persistent": true,
+      "scripts": ["main.js"]
+   },
+   "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "ENCODER"
+   },
+   "icons": {
+      "128": "img/icon128.png" 
+   },
+   "manifest_version": 2,
+   "description": "Message Security - Best VK message encoder for Chrome.",
+   "minimum_chrome_version": "35",
+   "name": "Message Security",
+   "offline_enabled": true,
+   "permissions": ["storage", "unlimitedStorage"],
+   "short_name": "ENCODER",
+   "version": "1.0.5"
+}

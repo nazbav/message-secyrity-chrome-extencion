@@ -1,0 +1,91 @@
+body {
+    position: relative;
+	background: #507299;
+}
+h1 {
+	
+	color:#fff;
+	text-align:center;
+}
+
+span, h2{
+	padding:3px;
+	
+	margin:3px;
+	margin-bottom:6px;
+	color:#f9f9f9;
+	text-align:center;
+}
+#encoder {
+	height: 100%;
+    width: 100%;
+} 
+
+/* .message {
+    height: 40px;
+    width: 200px;
+	border:none;
+	display: inline-block;
+	text-align: center;
+} */
+form {
+	margin: none;
+	/* padding:0px; */
+	padding-bottom:5px;
+	display: inline-block;
+}
+.text {
+    height: 40px;
+	width:190px;
+	border:none;
+	text-align: center;
+}
+.pass {
+    height: 40px;
+	width:190px;
+	
+	border:none;
+	text-align: center;
+}
+.submit {
+	display:none;
+}
+input {
+	margin: none;
+	padding: none;
+	background:#305075;
+	color:#fff;
+}
+::-webkit-input-placeholder {color:#507299;}
+::-moz-placeholder          {color:#507299;}
+:-moz-placeholder           {color:#507299;}
+:-ms-input-placeholder      {color:#507299;}
+input:hover {
+		background:#fff;
+		color:#222;
+}
+input:focus {
+		background:#fff;
+		color:#222;
+}
+textarea {
+	height: 200px;
+	width: 380px;
+	max-height: 200px;
+	max-width: 380px;
+	min-height: 200px;
+	min-width: 380px;
+	margin: 3px;
+	padding: 3px;
+	background:#305075;
+	color:#fff;
+	border:none;
+}
+textarea:hover {
+		background:#fff;
+		color:#222;
+}
+textarea:focus {
+		background:#fff;
+		color:#222;
+}
